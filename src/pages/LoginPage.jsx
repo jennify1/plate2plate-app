@@ -1,6 +1,5 @@
 import PhoneFrame from "../components/PhoneFrame";
-
-export const HomePage = () => {
+export const LoginPage = () => {
   return (
     <PhoneFrame>
       <h1 className="text-xl font-bold">Welcome</h1>

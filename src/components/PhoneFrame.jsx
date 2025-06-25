@@ -1,5 +1,4 @@
 // components/PhoneFrame.jsx
-import React from "react";
 
 const PhoneFrame = ({ children }) => {
   return (
