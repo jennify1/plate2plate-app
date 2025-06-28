@@ -1,7 +1,11 @@
-@import "tailwindcss";
+@import 'tailwindcss';
+
+@theme {
+  --color-lightgreen: #f3f7f2;
+}
 
 @font-face {
-  font-family: "OpenSans";
+  font-family: 'OpenSans';
   src: url('./assets/OpenSans-VariableFont_wdth\,wght.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
