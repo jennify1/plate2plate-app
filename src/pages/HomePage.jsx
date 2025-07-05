@@ -1,8 +1,11 @@
 import PhoneFrame from "../components/PhoneFrame";
 import { Link } from 'react-router-dom';
+import { Header } from "../components/Header";
+
 export const HomePage = () => {
   return (
     <PhoneFrame>
+      <Header />
       <h1 className="text-xl font-bold">Welcome</h1>
       <p className="text-gray-600">This is the home page of the app.</p>
       <Link
