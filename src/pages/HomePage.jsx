@@ -1,33 +1,41 @@
 import PhoneFrame from "../components/PhoneFrame";
 import { Link } from 'react-router-dom';
 import Card from '../components/notifications/Card';
+import ProfileButton from '../components/home/ProfileButton'
+import TopBar from "../components/TopBar";
+import ShareIcon from "../assets/ShareIcon.png"
+import TrackingIcon from "../assets/TrackingIcon.png"
+import CommunityIcon from "../assets/CommunityIcon.png"
+import HomeOption from "../components/home/HomeOption";
 
 export const HomePage = () => {
   return (
     <PhoneFrame>
-      <h1 className="text-xl font-bold">Welcome</h1>
-      
-      <p className="text-gray-600">This is the home page of the app.</p>
-      <Card>
-        sdfsdsdf
-      </Card>
-
-      {/* Make into component similar to "Card" later  */}
-      <div>
+      <TopBar />
+      <br />
+      <div className="flex flex-col items-center ">
+        <HomeOption
+          title="TO SHARE!"
+          subtitle="I have food to share"
+          icon={ShareIcon}
+        />
+        <br />
+        <br />
+        <HomeOption
+          title="Sharing~"
+          subtitle="Track delivery progress"
+          icon={TrackingIcon}
+        />
+        <br />
+        <br />
+        <HomeOption
+          title="Community"
+          subtitle="See the Difference"
+          icon={CommunityIcon}
+        />
 
       </div>
-      
-      <p className="text-gray-600">To share!</p>
 
-      <p className="text-gray-600">Sharing~</p>
-      <p className="text-gray-600">Community</p>
-
-      <Link
-        to="/login"
-        className="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
-      >
-        Go to Login
-      </Link>
     </PhoneFrame>
   );
 };
