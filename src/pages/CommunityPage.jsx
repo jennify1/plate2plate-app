@@ -15,7 +15,7 @@ export const CommunityPage = () => {
 
       {/* Banner */}
       <div className="flex flex-row justify-center items-center w-full h-[8rem] bg-[#c5e1b6] text-[#6D6E6C] font-medium gap-x-5">
-        <div className="text-2xl">SharePlate <br/> Community</div>
+        <div className="text-2xl">plate2plate <br/> Community</div>
         {/* Image */}
         <img className="w-[6rem]" src={CommunityImg} alt="Basket of Produce" />
       </div>
@@ -44,7 +44,7 @@ export const CommunityPage = () => {
       {/* Drop down for filtering */}
       <div className="flex flex-row justify-start w-full mt-3 ml-3">
         <button type="button" class="text-sm inline-flex w-full gap-x-1.5 py-1 hover:text-black-400 cursor-pointer" id="menu-button" aria-expanded="true" aria-haspopup="true">
-          Most relevent
+          Most relevant
           <img src= {downArrow} alt="drop down" className="w-[0.5rem] opacity-60" ></img>
         </button>
       </div>

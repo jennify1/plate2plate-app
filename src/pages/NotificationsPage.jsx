@@ -12,13 +12,13 @@ export const NotificationsPage = () => {
             <Card
               type='alert'
               title='Addi Road Food Pantry Camperdown'
-              subtitle='shortage of food! Urgently need milk and eggs.'
+              subtitle='Shortage of food! Urgently need milk and eggs.'
               button='SHARE!'
             />
             <Card
               type='alert'
               title='Sydney City Lifestyle & Mission Centre'
-              subtitle='shortage of food! Urgently need vegetables, nuts.'
+              subtitle='Shortage of food! Urgently need vegetables, nuts.'
               button='SHARE!'
             />
             <Card
@@ -31,7 +31,7 @@ export const NotificationsPage = () => {
                   got your food!
                 </>
               }
-              subtitle='Hi, thank you so much for the pasta, I love it! (Image)'
+              subtitle='Hi, thank you so much for the pasta, I love it!'
               button='PAST SHARING'
             />
           </div>
